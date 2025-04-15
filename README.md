@@ -1,9 +1,3 @@
-Great! Based on that info, you're integrating the **Omni Server** with **Claude Desktop** using the `claude_desktop_config.json` file. I'll update the `README.md` to include that setup step.
-
-Here's a revised `README.md` with the **Claude Desktop integration** section added:
-
----
-
 # Omni Server
 
 **Omni Server** is a Model Context Protocol (MCP) server designed to help developers familiarize themselves with the MCP framework. It serves as a foundational tool for understanding and implementing MCP-based applications.
