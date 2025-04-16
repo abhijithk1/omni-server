@@ -110,9 +110,9 @@ To use this server with **Claude Desktop**, configure your `claude_desktop_confi
 {
   "mcpServers": {
     "omni_server": {
-      "command": "<PATH TO PROJECT>\\.venv\\Scripts\\python.exe",
+      "command": "<PATH TO PROJECT>/.venv/Scripts/python.exe",
       "args": [
-        "<PATH TO PROJECT>\\main.py"
+        "<PATH TO PROJECT>/main.py"
       ],
       "cwd": "<PATH TO PROJECT>"
     }
