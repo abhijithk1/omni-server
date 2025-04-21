@@ -16,13 +16,3 @@ mcp.resource("prefs://user")(get_preferences)
 # Import and register prompts
 from prompts import task_summary_prompt
 mcp.prompt()(task_summary_prompt)
-
-import sys
-
-print("Registering tools and resources...", file=sys.stderr)
-# After registering tools
-print(f"Registered tools: {mcp.tools._tools}", file=sys.stderr)
-# After registering resources
-print(f"Registered resources: {mcp.resources._resources}", file=sys.stderr)
-# After prompts resources
-print(f"Registered resources: {mcp.prompts._prompts}", file=sys.stderr)
